@@ -109,13 +109,13 @@ const Hero = () => {
 		</div>
 	 </section>
 	 
-	 <div className="video absolute inset-0">
+	 <div className="video">
 		<video
 		 ref={videoRef}
 		 muted
 		 playsInline
 		 preload="auto"
-		 src="/videos/output.mp4"
+		 src="/videos/input.mp4"
 		/>
 	 </div>
 	</>
